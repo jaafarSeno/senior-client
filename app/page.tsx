@@ -8,7 +8,7 @@ import Reviews from "./components/Route/Reviews";
 import FAQ from "./components/FAQ/FAQ";
 import Footer from "./components/Footer";
 
-interface Props {}
+interface Props { }
 
 const Page: FC<Props> = (props) => {
   const [open, setOpen] = useState(false);
